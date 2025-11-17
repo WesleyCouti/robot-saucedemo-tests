@@ -1,0 +1,258 @@
+{"level":30,"time":"2025-11-15T04:05:48.313Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Listening on 127.0.0.1:58708"}
+{"level":30,"time":"2025-11-15T04:05:48.400Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-11-15T04:05:48.645Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Adding browser to stack: chromium, version: 141.0.7390.37"}
+{"level":30,"time":"2025-11-15T04:05:48.645Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-11-15T04:05:48.645Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-11-15T04:05:48.651Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-15T04:05:48.651Z","pid":33644,"hostname":"WesleyCoutinho","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@61c9e29f0f4e7976240df5583f16aac4\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=873b4977-3d7c-47e1-bd12-37ad86849439\"}"}
+{"level":30,"time":"2025-11-15T04:05:48.666Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Setting default timeout for context context=1ac1302d-e7dc-44bd-8f19-29fc9a616dce to 10000"}
+{"level":30,"time":"2025-11-15T04:05:48.666Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active context: context=1ac1302d-e7dc-44bd-8f19-29fc9a616dce"}
+{"level":30,"time":"2025-11-15T04:05:48.887Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-15T04:05:48.887Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active page"}
+{"level":30,"time":"2025-11-15T04:05:49.532Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-15T04:05:49.540Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.541Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with text=Swag Labs in page."}
+{"level":30,"time":"2025-11-15T04:05:49.614Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element text=Swag Labs containing Swag Labs"}
+{"level":30,"time":"2025-11-15T04:05:49.614Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.619Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:49.619Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=username in page."}
+{"level":30,"time":"2025-11-15T04:05:49.638Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:49.643Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:49.643Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=password in page."}
+{"level":30,"time":"2025-11-15T04:05:49.662Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:49.666Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.666Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=login-button in page."}
+{"level":30,"time":"2025-11-15T04:05:49.742Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.747Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.747Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[text()=\"Sauce Labs Bike Light\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.777Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[text()=\"Sauce Labs Bike Light\"] containing Sauce Labs Bike Light"}
+{"level":30,"time":"2025-11-15T04:05:49.777Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.783Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:49.783Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Bike Light\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.789Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:49.793Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.793Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Bike Light\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.809Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Bike Light\"]]//div[@class=\"inventory_item_price\"] containing $9.99"}
+{"level":30,"time":"2025-11-15T04:05:49.809Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.813Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.814Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"add-to-cart-sauce-labs-bike-light\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.862Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.866Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.866Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[text()=\"Sauce Labs Fleece Jacket\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.878Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[text()=\"Sauce Labs Fleece Jacket\"] containing Sauce Labs Fleece Jacket"}
+{"level":30,"time":"2025-11-15T04:05:49.879Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.882Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:49.882Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Fleece Jacket\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.885Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:49.888Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.888Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Fleece Jacket\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.899Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Fleece Jacket\"]]//div[@class=\"inventory_item_price\"] containing $49.99"}
+{"level":30,"time":"2025-11-15T04:05:49.899Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:49.903Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.903Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.947Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.952Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.952Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"remove-sauce-labs-bike-light\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:49.993Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.997Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:49.997Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"shopping-cart-link\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.042Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.047Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:50.047Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"inventory-item-name\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.052Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:50.056Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:50.056Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item_name\" and text()=\"Sauce Labs Fleece Jacket\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.065Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[@class=\"inventory_item_name\" and text()=\"Sauce Labs Fleece Jacket\"] containing Sauce Labs Fleece Jacket"}
+{"level":30,"time":"2025-11-15T04:05:50.065Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:50.070Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.071Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"checkout\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.116Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.119Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:50.120Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"firstName\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.134Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:50.138Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:50.138Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"lastName\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.152Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:50.156Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:50.156Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"postalCode\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.167Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:50.171Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.171Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"continue\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.224Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.227Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.227Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"finish\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:50.266Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:50.270Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.273Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.275Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.277Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.279Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.281Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.282Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.283Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.287Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active context: context=1ac1302d-e7dc-44bd-8f19-29fc9a616dce"}
+{"level":30,"time":"2025-11-15T04:05:50.287Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changing current active page: page=a59223b7-7384-48ca-9ab7-f42349a23acb"}
+{"level":30,"time":"2025-11-15T04:05:50.287Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active page"}
+{"level":30,"time":"2025-11-15T04:05:50.291Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-15T04:05:50.300Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Removed page=80473309-b3b4-4a19-aa5e-28598713deba from context=1ac1302d-e7dc-44bd-8f19-29fc9a616dce page stack"}
+{"level":30,"time":"2025-11-15T04:05:50.340Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-15T04:05:50.345Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.345Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:50.357Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-11-15T04:05:50.357Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-11-15T04:05:50.362Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-15T04:05:50.362Z","pid":33644,"hostname":"WesleyCoutinho","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@61c9e29f0f4e7976240df5583f16aac4\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=873b4977-3d7c-47e1-bd12-37ad86849439\"}"}
+{"level":30,"time":"2025-11-15T04:05:50.369Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Setting default timeout for context context=7a827924-7930-4016-b4d7-7a213e76a3ac to 10000"}
+{"level":30,"time":"2025-11-15T04:05:50.369Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active context: context=7a827924-7930-4016-b4d7-7a213e76a3ac"}
+{"level":30,"time":"2025-11-15T04:05:50.537Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-15T04:05:50.537Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active page"}
+{"level":30,"time":"2025-11-15T04:05:51.105Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-15T04:05:51.110Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:51.110Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with text=Swag Labs in page."}
+{"level":30,"time":"2025-11-15T04:05:51.157Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element text=Swag Labs containing Swag Labs"}
+{"level":30,"time":"2025-11-15T04:05:51.157Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:51.161Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:51.161Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=username in page."}
+{"level":30,"time":"2025-11-15T04:05:51.171Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:51.175Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:51.175Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=password in page."}
+{"level":30,"time":"2025-11-15T04:05:51.191Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:51.194Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:51.194Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=login-button in page."}
+{"level":30,"time":"2025-11-15T04:05:56.264Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.270Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.270Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[text()=\"Sauce Labs Bike Light\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.289Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[text()=\"Sauce Labs Bike Light\"] containing Sauce Labs Bike Light"}
+{"level":30,"time":"2025-11-15T04:05:56.289Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.294Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:56.294Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Bike Light\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.298Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:56.301Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.301Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Bike Light\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.312Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Bike Light\"]]//div[@class=\"inventory_item_price\"] containing $9.99"}
+{"level":30,"time":"2025-11-15T04:05:56.312Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.316Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.316Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"add-to-cart-sauce-labs-bike-light\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.356Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.359Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.360Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[text()=\"Sauce Labs Fleece Jacket\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.376Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[text()=\"Sauce Labs Fleece Jacket\"] containing Sauce Labs Fleece Jacket"}
+{"level":30,"time":"2025-11-15T04:05:56.376Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.379Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:56.379Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Fleece Jacket\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.383Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:56.385Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.385Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Fleece Jacket\"]]//div[@class=\"inventory_item_price\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.395Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[@class=\"inventory_item\"][.//div[text()=\"Sauce Labs Fleece Jacket\"]]//div[@class=\"inventory_item_price\"] containing $49.99"}
+{"level":30,"time":"2025-11-15T04:05:56.395Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.399Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.399Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"add-to-cart-sauce-labs-fleece-jacket\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.439Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.443Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.443Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"remove-sauce-labs-bike-light\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.488Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.491Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.491Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"shopping-cart-link\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.527Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.531Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:56.531Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"inventory-item-name\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.537Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-11-15T04:05:56.539Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.539Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with xpath=//div[@class=\"inventory_item_name\" and text()=\"Sauce Labs Fleece Jacket\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.549Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element xpath=//div[@class=\"inventory_item_name\" and text()=\"Sauce Labs Fleece Jacket\"] containing Sauce Labs Fleece Jacket"}
+{"level":30,"time":"2025-11-15T04:05:56.550Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:56.553Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.553Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"checkout\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.593Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.595Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:56.595Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"firstName\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.606Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:56.609Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:56.609Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"lastName\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.618Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:56.622Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:56.622Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"postalCode\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.633Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:56.636Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.636Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"continue\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.679Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.681Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.681Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"finish\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:56.730Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:56.736Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.738Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.740Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.741Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.743Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.744Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.748Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.750Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.752Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active context: context=7a827924-7930-4016-b4d7-7a213e76a3ac"}
+{"level":30,"time":"2025-11-15T04:05:56.752Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changing current active page: page=7daca0bf-0405-4468-98e8-d0caf3d94533"}
+{"level":30,"time":"2025-11-15T04:05:56.752Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active page"}
+{"level":30,"time":"2025-11-15T04:05:56.755Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-15T04:05:56.762Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Removed page=9e05bd79-ef6c-4818-a82a-b2b80e7b49f3 from context=7a827924-7930-4016-b4d7-7a213e76a3ac page stack"}
+{"level":30,"time":"2025-11-15T04:05:56.807Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-15T04:05:56.811Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.811Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:56.821Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-11-15T04:05:56.822Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-11-15T04:05:56.826Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-11-15T04:05:56.826Z","pid":33644,"hostname":"WesleyCoutinho","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@61c9e29f0f4e7976240df5583f16aac4\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=873b4977-3d7c-47e1-bd12-37ad86849439\"}"}
+{"level":30,"time":"2025-11-15T04:05:56.833Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Setting default timeout for context context=af3873c1-5000-4d54-ada1-2f14c16c7fb5 to 10000"}
+{"level":30,"time":"2025-11-15T04:05:56.833Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active context: context=af3873c1-5000-4d54-ada1-2f14c16c7fb5"}
+{"level":30,"time":"2025-11-15T04:05:57.002Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Video path: undefined"}
+{"level":30,"time":"2025-11-15T04:05:57.002Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active page"}
+{"level":30,"time":"2025-11-15T04:05:57.607Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method newPage"}
+{"level":30,"time":"2025-11-15T04:05:57.611Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:57.611Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with text=Swag Labs in page."}
+{"level":30,"time":"2025-11-15T04:05:57.660Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Retrieved text for element text=Swag Labs containing Swag Labs"}
+{"level":30,"time":"2025-11-15T04:05:57.660Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getText"}
+{"level":30,"time":"2025-11-15T04:05:57.664Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.665Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=username in page."}
+{"level":30,"time":"2025-11-15T04:05:57.676Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.680Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.680Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=password in page."}
+{"level":30,"time":"2025-11-15T04:05:57.697Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.702Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.702Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with data-test=login-button in page."}
+{"level":30,"time":"2025-11-15T04:05:57.785Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.791Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.791Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"shopping-cart-link\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:57.844Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.849Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.849Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"checkout\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:57.893Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.897Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.897Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"firstName\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:57.911Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.915Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.916Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"lastName\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:57.932Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.937Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.938Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"postalCode\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:57.952Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method fillText"}
+{"level":30,"time":"2025-11-15T04:05:57.956Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:57.956Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"continue\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:58.000Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:58.004Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method click"}
+{"level":30,"time":"2025-11-15T04:05:58.004Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Strict mode is enabled, find Locator with css=[data-test=\"finish\"] in page."}
+{"level":30,"time":"2025-11-15T04:05:58.046Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method click"}
+{"level":30,"time":"2025-11-15T04:05:58.051Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.055Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.057Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.059Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.061Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.064Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.066Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.068Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.070Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active context: context=af3873c1-5000-4d54-ada1-2f14c16c7fb5"}
+{"level":30,"time":"2025-11-15T04:05:58.070Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changing current active page: page=84b3a561-367c-4e6e-96e2-d1d63aec140a"}
+{"level":30,"time":"2025-11-15T04:05:58.070Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Changed active page"}
+{"level":30,"time":"2025-11-15T04:05:58.074Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-11-15T04:05:58.082Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Removed page=c9b54fe0-08a3-4ab8-bc27-5fc9d4cf968b from context=af3873c1-5000-4d54-ada1-2f14c16c7fb5 page stack"}
+{"level":30,"time":"2025-11-15T04:05:58.124Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-11-15T04:05:58.136Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.136Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-11-15T04:05:58.193Z","pid":33644,"hostname":"WesleyCoutinho","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-11-15T04:05:58.476Z","pid":33644,"hostname":"WesleyCoutinho","msg":"End of node method closeAllBrowsers"}
