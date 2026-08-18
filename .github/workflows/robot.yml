@@ -8,6 +8,17 @@ on:
     branches: [master]
 
   workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to run"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - smoke
+          - regression
+          - negative
 
 jobs:
   robot-tests:
@@ -33,12 +44,22 @@ jobs:
           rfbrowser init
 
       - name: Run Robot Framework tests
+        shell: bash
         run: |
           mkdir -p results
 
-          robot \
-          --outputdir results \
-          tests/
+          TAG="${{ github.event.inputs.tag }}"
+
+          if [[ -z "$TAG" || "$TAG" == "all" ]]; then
+            robot \
+              --outputdir results \
+              tests/
+          else
+            robot \
+              --include "$TAG" \
+              --outputdir results \
+              tests/
+          fi
 
       - name: Upload Robot Framework reports
         if: always()
