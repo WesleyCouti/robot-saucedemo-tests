@@ -83,18 +83,12 @@ Finalizar Compra
     ${mensagem}=    Get Text    css=[data-test="complete-header"]
     Should Be Equal    ${mensagem}    Thank you for your order!
 
-Finalizar Checkout Sem Produtos
-    [Arguments]    ${nome}    ${sobrenome}    ${cep}
 
-    Click    css=[data-test="checkout"]
+Validar Erro No Checkout
+    [Arguments]    ${mensagem_esperada}
 
-    Preencher Dados Do Checkout
-    ...    ${nome}
-    ...    ${sobrenome}
-    ...    ${cep}
-
-    Click    css=[data-test="continue"]
-    Click    css=[data-test="finish"]
+    ${mensagem}=    Get Text    css=[data-test="error"]
+    Should Contain    ${mensagem}    ${mensagem_esperada}
 
 Gerar Dados Fake
     ${nome}=         FakerLibrary.FirstName

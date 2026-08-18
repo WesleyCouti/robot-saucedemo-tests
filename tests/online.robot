@@ -58,15 +58,20 @@ Compra Com Usuario Performance Glitch
     Finalizar Compra    ${nome}    ${sobrenome}    ${cep}
 
 
-Checkout Sem Produtos
+Checkout Sem Preencher Dados Obrigatorios
     [Tags]    negative    regression
 
-    ${nome}    ${sobrenome}    ${cep}=    Gerar Dados Fake
-
     Login    standard_user
+
+    Validar E Adicionar Produto
+    ...    Sauce Labs Backpack
+    ...    $29.99
+    ...    add-to-cart-sauce-labs-backpack
+
     Acessar Carrinho
 
-    Finalizar Checkout Sem Produtos
-    ...    ${nome}
-    ...    ${sobrenome}
-    ...    ${cep}
+    Click    css=[data-test="checkout"]
+    Click    css=[data-test="continue"]
+
+    Validar Erro No Checkout
+    ...    Error: First Name is required
