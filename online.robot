@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Cenários automatizados de compra no SauceDemo.
+Documentation       Testes automatizados do fluxo de compra no SauceDemo
 
 Library             Browser
 Library             FakerLibrary
@@ -30,7 +30,7 @@ Login
     Click        css=[data-test="login-button"]
 
 Validar E Adicionar Produto
-    [Arguments]    ${nome_produto}    ${preco_produto}    ${add_btn}
+    [Arguments]    ${nome_produto}    ${preco_produto}    ${botao_adicionar}
 
     ${produto}=    Get Text    xpath=//div[text()="${nome_produto}"]
     Should Be Equal    ${produto}    ${nome_produto}
@@ -43,15 +43,16 @@ Validar E Adicionar Produto
     ${preco}=    Get Text    ${seletor_preco}
     Should Be Equal    ${preco}    ${preco_produto}
 
-    Click    css=[data-test="${add_btn}"]
+    Click    css=[data-test="${botao_adicionar}"]
 
 Remover Produto
-    [Arguments]    ${remove_btn}
+    [Arguments]    ${botao_remover}
 
-    Click    css=[data-test="${remove_btn}"]
+    Click    css=[data-test="${botao_remover}"]
 
 Acessar Carrinho
     Click    css=[data-test="shopping-cart-link"]
+    Wait For Elements State    css=[data-test="checkout"]    visible    5
 
 Validar Produto No Carrinho
     [Arguments]    ${nome_produto}
@@ -69,7 +70,7 @@ Validar Produto No Carrinho
 Finalizar Compra
     [Arguments]    ${nome}    ${sobrenome}    ${cep}
 
-    Click        css=[data-test="checkout"]
+    Click    css=[data-test="checkout"]
 
     Fill Text    css=[data-test="firstName"]     ${nome}
     Fill Text    css=[data-test="lastName"]      ${sobrenome}
@@ -78,8 +79,8 @@ Finalizar Compra
     Click    css=[data-test="continue"]
     Click    css=[data-test="finish"]
 
-    Get Text    css=[data-test="complete-header"]
-    ...    ==    Thank you for your order!
+    ${mensagem}=    Get Text    css=[data-test="complete-header"]
+    Should Be Equal    ${mensagem}    Thank you for your order!
 
 Gerar Dados Fake
     ${nome}=         FakerLibrary.FirstName
@@ -148,7 +149,8 @@ Checkout Sem Produtos
     Login    standard_user
     Acessar Carrinho
 
-    Click        css=[data-test="checkout"]
+    Click    css=[data-test="checkout"]
+
     Fill Text    css=[data-test="firstName"]     ${nome}
     Fill Text    css=[data-test="lastName"]      ${sobrenome}
     Fill Text    css=[data-test="postalCode"]    ${cep}
