@@ -8,20 +8,10 @@ on:
     branches: [master]
 
   workflow_dispatch:
-    inputs:
-      tag:
-        description: "Tag to run"
-        required: true
-        default: "all"
-        type: choice
-        options:
-          - all
-          - smoke
-          - regression
-          - negative
 
 jobs:
-  robot-tests:
+  smoke-tests:
+    name: Smoke Suite
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -40,32 +30,102 @@ jobs:
           pip install -r requirements.txt
 
       - name: Initialize Robot Framework Browser
+        run: rfbrowser init
+
+      - name: Run smoke tests
         run: |
-          rfbrowser init
+          mkdir -p results/smoke
 
-      - name: Run Robot Framework tests
-        shell: bash
-        run: |
-          mkdir -p results
+          robot \
+            --include smoke \
+            --outputdir results/smoke \
+            tests/
 
-          TAG="${{ github.event.inputs.tag }}"
-
-          if [[ -z "$TAG" || "$TAG" == "all" ]]; then
-            robot \
-              --outputdir results \
-              tests/
-          else
-            robot \
-              --include "$TAG" \
-              --outputdir results \
-              tests/
-          fi
-
-      - name: Upload Robot Framework reports
+      - name: Upload smoke reports
         if: always()
         uses: actions/upload-artifact@v6
         with:
-          name: robot-framework-results
-          path: results/
+          name: robot-smoke-results
+          path: results/smoke/
+          if-no-files-found: ignore
+          retention-days: 14
+
+  regression-tests:
+    name: Regression Suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Initialize Robot Framework Browser
+        run: rfbrowser init
+
+      - name: Run regression tests
+        run: |
+          mkdir -p results/regression
+
+          robot \
+            --include regression \
+            --outputdir results/regression \
+            tests/
+
+      - name: Upload regression reports
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: robot-regression-results
+          path: results/regression/
+          if-no-files-found: ignore
+          retention-days: 14
+
+  negative-tests:
+    name: Negative Suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Initialize Robot Framework Browser
+        run: rfbrowser init
+
+      - name: Run negative tests
+        run: |
+          mkdir -p results/negative
+
+          robot \
+            --include negative \
+            --outputdir results/negative \
+            tests/
+
+      - name: Upload negative reports
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: robot-negative-results
+          path: results/negative/
           if-no-files-found: ignore
           retention-days: 14
