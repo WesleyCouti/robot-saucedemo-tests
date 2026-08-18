@@ -37,8 +37,8 @@ jobs:
           mkdir -p results
 
           robot \
-            --outputdir results \
-            tests/online.robot
+          --outputdir results \
+          tests/
 
       - name: Upload Robot Framework reports
         if: always()
