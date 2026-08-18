@@ -38,7 +38,7 @@ jobs:
 
           robot \
             --outputdir results \
-            online.robot
+            tests/online.robot
 
       - name: Upload Robot Framework reports
         if: always()
