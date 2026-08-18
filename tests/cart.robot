@@ -1,7 +1,9 @@
 *** Settings ***
 Documentation       Cenários de carrinho no SauceDemo
 
-Resource            ../resources/keywords.robot
+Resource            ../resources/common_keywords.robot
+Resource            ../resources/cart_keywords.robot
+Resource            ../resources/checkout_keywords.robot
 
 Test Setup          Abrir Aplicacao
 Test Teardown       Fechar Aplicacao
