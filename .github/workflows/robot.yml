@@ -41,6 +41,11 @@ jobs:
             --outputdir results/smoke \
             tests/
 
+      - name: Validate smoke results
+        if: always()
+        run: |
+          python scripts/validate-results.py results/smoke/output.xml
+
       - name: Upload smoke reports
         if: always()
         uses: actions/upload-artifact@v6
@@ -81,6 +86,11 @@ jobs:
             --outputdir results/regression \
             tests/
 
+      - name: Validate regression results
+        if: always()
+        run: |
+          python scripts/validate-results.py results/regression/output.xml
+
       - name: Upload regression reports
         if: always()
         uses: actions/upload-artifact@v6
@@ -120,6 +130,11 @@ jobs:
             --include negative \
             --outputdir results/negative \
             tests/
+
+      - name: Validate negative results
+        if: always()
+        run: |
+          python scripts/validate-results.py results/negative/output.xml
 
       - name: Upload negative reports
         if: always()
